@@ -51,6 +51,9 @@ besides declare relations and validations in your models.
 
 ## Testing
 
+`bundle exec rspec`
+
+
 ### Resources
 
 * You'll definitely need to be familiar with [Active Record
