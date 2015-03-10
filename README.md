@@ -41,12 +41,12 @@ besides declare relations and validations in your models.
 
 * An attachment should know about the recipients it went to, and vice
   versa
-** But not directly! A attachment only goes to a recipient through a
+⋅⋅ * But not directly! A attachment only goes to a recipient through a
 `Message`
 * A shipment should know about its attachments, and vice versa
-** But not directly! A shipment has messages, which have attachments.
+⋅⋅ * But not directly! A shipment has messages, which have attachments.
 * A shipment should know about its recipients
-** But not directly! A shipment has messages, which have recipients
+⋅⋅ * But not directly! A shipment has messages, which have recipients
 
 
 ## Testing
