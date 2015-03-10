@@ -1,4 +1,6 @@
 require 'active_record'
+require 'pry'
+
 Dir.glob('./lib/*').each do |folder|
   Dir.glob(folder + "/*.rb").each do |file|
     require file
