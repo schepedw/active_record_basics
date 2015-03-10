@@ -3,7 +3,6 @@ require 'factory_girl'
 
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 require 'rspec'
-require_relative "../db/seeds.rb"
 
 
 RSpec.configure do |config|
