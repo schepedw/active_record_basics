@@ -1,5 +1,4 @@
 require_relative '../../environment'
-require 'pry'
 
 class SampleMigration < ActiveRecord::Migration
   def up
