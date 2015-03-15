@@ -32,6 +32,8 @@ For example, `ruby db/migrate/sample.rb up`
 * A message has many attachments
 * A message has many recipients
 * A shipment has many messages
+* An attachment can have many messages
+* A recipient can have many messages
 
 ## Additional requirements
 
